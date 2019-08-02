@@ -14,17 +14,17 @@ This examples shows:
 
 
 ## Modified files:
-[CustomersController.php](app/Http/Controllers/CustomersController.php)
+[CustomersController.php](api-demo/app/Http/Controllers/CustomersController.php)
 
-[CustomersControllerTest.php](tests/Feature/CustomersControllerTest.php)
+[CustomersControllerTest.php](api-demo/tests/Feature/CustomersControllerTest.php)
 
-[create_customers_table.php](database/migrations/2019_08_01_220752_create_customers_table.php)
+[create_customers_table.php](api-demo/database/migrations/2019_08_01_220752_create_customers_table.php)
 
-[DatabaseSeeder.php](database/seeds/DatabaseSeeder.php)
+[DatabaseSeeder.php](api-demo/database/seeds/DatabaseSeeder.php)
 
-[Customer.php](app/Customer.php)
+[Customer.php](api-demo/app/Customer.php)
 
-[routes/api.php](routes/api.php)
+[routes/api.php](api-demo/routes/api.php)
 
 
 #API Routes:
