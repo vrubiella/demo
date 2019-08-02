@@ -1,19 +1,19 @@
-#Laravel demos
+# Laravel demos
 
-#api-demo
+## api-demo 
 
-Simple CRUD RESTFul API for manage Customers.
+CRUD REST API  demo with Laravel 5.8
 
 This examples shows:
-- Simply Models and Eloquent ORM
+- Model persisting with Eloquent ORM
 - DataSeeding for testing purposes
-- FeatureTesting with sqlite
-- FeatureTesting using special json assertions
+- Feature Testing with sqlite
+- Feature Testing with json assertions
 - Easy routes definition with ResourceController
 - Laravel Validators
 
 
-## Modified files:
+### Modified files:
 [CustomerController.php](api-demo/app/Http/Controllers/CustomerController.php)
 
 [CustomerControllerTest.php](api-demo/tests/Feature/CustomerControllerTest.php)
@@ -27,7 +27,7 @@ This examples shows:
 [routes/api.php](api-demo/routes/api.php)
 
 
-#API Routes:
+### API Routes:
 ```
 +--------+-----------+--------------------------+-------------------+-------------------------------------------------+--------------+
 | Domain | Method    | URI                      | Name              | Action                                          | Middleware   |
@@ -42,5 +42,5 @@ This examples shows:
 +--------+-----------+--------------------------+-------------------+-------------------------------------------------+--------------+
 ```
 
-#Apiary documentation:
+### Apiary documentation:
 https://app.apiary.io/laravelapidemo
