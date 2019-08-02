@@ -14,9 +14,9 @@ This examples shows:
 
 
 ## Modified files:
-[CustomersController.php](api-demo/app/Http/Controllers/CustomersController.php)
+[CustomerController.php](api-demo/app/Http/Controllers/CustomerController.php)
 
-[CustomersControllerTest.php](api-demo/tests/Feature/CustomersControllerTest.php)
+[CustomerControllerTest.php](api-demo/tests/Feature/CustomerControllerTest.php)
 
 [create_customers_table.php](api-demo/database/migrations/2019_08_01_220752_create_customers_table.php)
 
