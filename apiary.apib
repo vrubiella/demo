@@ -1,0 +1,75 @@
+FORMAT: 1A
+HOST: http://polls.apiblueprint.org/
+
+# Laravel API Customers Demo
+
+Simple CRUD REST API demo using MSON.
+
+## Customers Collection [/customers]
+
+### List All Customer [GET]
+
++ Response 200 (application/json)
+
+    + Attributes (array[Customer])
+
+### Create a New Customer [POST]
+
++ Request (application/json)
+
+        {
+            "name": "Kilian",
+            "surname": "Rubiella",
+            "email": "kilian@demo.es"
+        }
+
++ Response 201 (application/json)
+    + Attributes (Customer)
+    
++ Response 422 (application/json)
+    + Attributes (array[ValidationError])
+            
+
+## Customers Management [/customers/{id}]
+
++ Parameters
+    + id: 120 (number) - Customer unique identifier
+    
+
+### Show Customer [GET]
+
++ Request (application/json)
+    
++ Response 200 (application/json)
+
+    + Attributes (Customer)
+
+
+### Update Customer [PUT]
+
++ Request (application/json)
+
++ Response 200 (application/json)
+     + Attributes (Customer)
+
++ Response 422 (application/json)
+    + Attributes (array[ValidationError])
+
+
+### Delete Customer [DELETE]
+
++ Request (application/json)
+
++ Response 204 (application/json)
+
+
+# Data Structures
+
+## Customer
++ id: 120 (number) - The Customer's unique identifier
++ name: Víctor (string) - The Customer's name
++ surname: Rubiella (string) - The Customer's surname
++ email: demo@test.dev (string) - The Customer's email address
+
+## ValidationError
++ message: this field is invalid (string) - Invalid field message info
